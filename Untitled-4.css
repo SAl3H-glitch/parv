@@ -8,10 +8,10 @@ body{
 }
 .header-2 img{
     float: right;
-	height: 5.9vw;
+    height: 5.9vw;
 }
 .header-2{
-	height: 5.9vw; 
+    height: 5.9vw; 
 	
 }
 .header-2 a:hover {color: yellow;}
@@ -22,9 +22,9 @@ body{
     height:90;
 }
 .header-2 li{
-	margin-top: 0;
-	padding: 0.5vw;
-	font-size: 4vw;
+    margin-top: 0;
+    padding: 0.5vw;
+    font-size: 4vw;
     height: 5.9vw; 
     color: black;
     border-left : groove black 1px;
@@ -35,7 +35,7 @@ body{
     list-style-type: none;
     display: inline-flex;
     padding-top: 692;
-    margin-left:300;
+    float:right;
 }
 .main-1 button{
     border: 0;
