@@ -1,0 +1,344 @@
+body{
+    direction: rtl;
+}
+.main-1{
+    width: 100%;
+    height: 730px;
+    background: url(Untitled-2.jpg)
+}
+.header-2 img{
+    float: right;
+	height: 5.9vw;
+}
+.header-2{
+	height: 5.9vw; 
+	
+}
+.header-2 a:hover {color: yellow;}
+.header-2 a{
+    color: black;
+}
+#c {
+    height:90;
+}
+.header-2 li{
+	margin-top: 0;
+	padding: 0.5vw;
+	font-size: 4vw;
+    height: 5.9vw; 
+    color: black;
+    border-left : groove black 1px;
+    border-right: groove black 1px;
+    text-align: center;
+}
+.main-1 ul{
+    list-style-type: none;
+    display: inline-flex;
+	padding-left: 45vw;
+	padding-top: 692;
+}
+.main-1 button{
+    border: 0;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+.pick{
+	width: 15vw;
+}
+#p1{
+	float: right;
+	height: auto;
+}
+#p2{
+	float: right;
+	margin-right: 2vw;
+	height: auto;
+}
+#p3{
+	float: left;
+	
+	height: auto;
+}
+#p4{
+	margin-left: 2vw;
+	float: left;
+	height: auto;
+}
+.pic1 {
+	
+	
+}
+.pic1 a:hover{
+	text-decoration: none;
+	color: red;
+}
+.main-3{
+	height: 900;
+	background-color: gainsboro;
+}
+#o1{
+	float: right;
+	width: 45%;
+	
+}
+#o2{
+	width: 45%;
+	float: left;
+	
+}
+.offer{
+	width: 100%;
+	height: fit-content;
+	background-color: white;
+	margin-top: 65;
+}
+.offer img{
+	float: right;
+	height: fit-content;
+	width: 50%;
+}
+.offer h1{
+	font-family: 'far.aref';
+	font-size: 30;
+	padding-top: 15;
+	float: right;
+}
+.offer h2 {
+	font-size: 23;
+	margin-right: 10;
+	margin-top: 7;
+	float: right;
+}
+.offer hr{
+	margin-block-end:unset;
+	margin-bottom: 0;
+	box-sizing: content-box;
+	margin-top: 10;
+	border: 0.5px solid black;
+}
+.offer p{
+	text-align: right;
+	font-family: '';
+	font-size: 13;
+	padding-right: 265px;
+	padding-left: 10;
+	margin-bottom: 0;
+	margin-block-end:unset;
+}
+#c2{
+    height: 100%
+}
+.main-2{
+    background-color: gainsboro;
+    height: 450px;
+}
+.main-1 li{
+    padding-right: 30;
+    padding-left: 30;
+    padding-bottom: 5;
+    font-size: 22;
+    background-color: white;
+    margin-right: 30;
+    font-family: 'Far.Aref',Tahoma, Sans-Serif;
+    
+}
+.te{
+	width: 100%;
+	margin-top: 15;
+	background-color: white;
+	text-align: center;
+	font-family: 'Far.aref';
+	font-size:1.8vw;
+	padding-top: 10;
+	
+}
+.te a{
+	margin-top: 100;
+	color: black;
+}
+.im{
+	background: url(Untitled-1.jpg);
+	width: auto;
+	height: 200;
+	display: block;
+	background-position-x: center;
+}
+.main-1 button:hover{color: aqua;}
+.header-2 ul{
+    list-style-type: none;
+    display: inline-flex;
+
+}
+.NE{
+	height:600px;
+	background: url(slide_the-1.jpg);
+	background-position: center;
+	opacity: 0.7;
+	
+}
+.NEt{
+	color: white;
+	text-align: center;
+	padding-top: 80;
+	opacity: 1;
+	font-family: 'Far.aref';
+}
+.NEt h2{
+	padding-top: 70;
+	color: black;
+}
+.NEb {
+	background-color: gray;
+	border-color: black;
+	width: 450;
+	margin-top: 100;
+	padding-top: 5;
+	padding-bottom: 5;
+	font-family: 'Far.aref';
+}
+.NEb:hover{
+	color:yellow;
+}
+.container{
+    width: 1180px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header-1{
+    background-color: #03b7f2;
+    text-align: right;
+}
+.header-1   {
+    color: white
+}
+.header-1 a {
+    color: white
+}
+.header-1 a:link{
+   
+  text-decoration: none;
+    color: white;
+}
+.header-1 {
+    font-size: 17;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.header-1 a{
+    font-family:  'Far.Aref',Tahoma, Sans-Serif;
+}
+#f1{
+	padding-right: 3vw;
+}
+#i1{
+   	 width: 10vw;
+	margin-top: 6vh;
+}
+#i2{
+	margin-top: 6vh;
+	float: left;
+    width: 10vw;
+	margin-left: 15;
+}
+#i3{
+    width: 45%;
+	float: left;
+	margin-top:5.9vh; 
+}
+#i4{
+	width: 45%;
+	float: right;
+	margin-top:5.9vh; 
+}
+#i5{
+	float: right;
+	margin-left: 100;
+	margin-top: 5.9vh;
+	width: 15vw;
+	
+}
+.tor{
+    display: none;
+    background-color: white;
+    height: 40vh;
+	
+}
+.hot{
+	
+    display: none;
+     background-color: white;
+     height: 40vh;
+}
+.par{
+    display:none;
+    background-color: white;
+    height: 40vh;
+}
+.u1{
+    list-style-type: none;
+    font-family: 'Far.Aref';
+	display: inline-flex;
+	padding-inline-start: 0;
+}
+.form{
+	display: inline-block;
+	float: right;
+	width: 32%;
+	font-size: 3vh;
+	text-align: right;
+}
+.show{
+    display: block;
+}
+.form h1 {
+	padding-top:2vh;
+	font-size: 5vh;
+}
+#l1{
+    width: 50%;
+}
+#l2{
+   
+}
+#l3{
+    padding-right: 5.5vw;
+}
+#l4{
+	width: 50%;
+}
+.u1 li{
+	padding-top: 2vh;
+    float: right;
+    display: inline-flex;
+}
+*a{
+	text-decoration: none;
+}
+@font-face {
+    font-family: 'Far.Aref';
+    src:        url('http://www.fontfarsi.ir/Content/Fonts/EOT/Far_Aref.eot');
+    src: local('☺'),
+    url('http://www.fontfarsi.ir/Content/Fonts/WOFF/Far_Aref.woff') format('woff'),
+    url('http://www.fontfarsi.ir/Content/Fonts/TTF/Far_Aref.ttf') format('truetype'),
+    url('http://www.fontfarsi.ir/Content/Fonts/SVG/Far_Aref.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    }
+@media screen and (max-width:990px){
+	.offer p{
+		width: 100%;
+		padding-top: 245;
+		margin-block-start:0;
+		padding-right: 0;
+	}
+	.offer img{
+		width: 100%;
+	}
+	.offer h2{
+		float: left;
+	}
+	.main-3{
+		height:1300;
+	}
+}
