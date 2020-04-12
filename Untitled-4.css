@@ -34,7 +34,8 @@ body{
 .main-1 ul{
     list-style-type: none;
     display: inline-flex;
-	padding-top: 692;
+    padding-top: 692;
+    margin-left:300;
 }
 .main-1 button{
     border: 0;
