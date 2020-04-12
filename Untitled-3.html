@@ -1,0 +1,217 @@
+<html>
+<head>
+    <link href="Untitled-4.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+$(document).ready(function(){
+  $("#b1").click(function(){
+    $("#tur").addClass("show");
+      $("#hote").removeClass("show");
+      $("#parv").removeClass("show");
+  });
+});
+        $(document).ready(function(){
+  $("#b2").click(function(){
+    $("#hote").addClass("show");
+      $("#tur").removeClass("show");
+      $("#parv").removeClass("show");
+  });
+});
+        $(document).ready(function(){
+  $("#b3").click(function(){
+    $("#parv").addClass("show");
+      $("#tur").removeClass("show");
+      $("#hote").removeClass("show");
+  });
+});
+</script>
+    </head>
+<body>
+    <header>
+        <div class="header-1">
+            <div class="container">
+                <a href="#"> ورود</a> - <a href="#"> ثبت نام    </a>
+            </div>
+        </div>
+        <div class="header-2">
+            <div class="container" id="c">
+                <img src="Untitled-1.png" alt="none"> 
+                <ul>
+                    <li><a href="#">
+          <span class="fas fa-home"></span>
+        </a></li>
+                    <li><a href="#">
+                        <span class="fas fa-building"></span>
+                        </a></li>
+                    <li><a href="#">
+                        <span class="fas fa-suitcase"></span>
+                        </a></li>
+                    <li><a href="#">
+                        <span class="fas fa-newspaper"></span>
+                        </a></li>
+                    <li><a href="#">
+                        <span class="fas fa-info-circle"></span>
+                        </a></li>
+                    <li><a href="#">
+                        <span class="fas fa-phone-square"></span>
+                        </a></li>
+                </ul>   
+            </div>
+        </div>
+    </header>
+    <div class="main-1">
+        <div class="container" id="c2">
+                <ul>
+                    <li><button id="b1">تور</button></li>
+                    <li><button id="b2">هتل</button></li>
+                    <li><button id="b3">پرواز</button></li>
+            </ul>
+        </div>      
+    </div>
+        <div class="tor" id="tur">
+            <div class="container">
+                <ul class="u1">
+					<div class="form">
+						 <h1>کجا؟</h1>
+						 <li>مقصد شما</li>
+						 <input id="i5" type="text" placeholder="مقصد خود را وارد کنید">
+					</div>
+         			<div class="form">
+						<h1>چه وقت؟</h1>
+						<li id="l4">تاریخ ورود</li>
+						<li id="l1">تاریخ خروج</li>
+						<input type="date" id="i1">
+						<input type="date" id="i2">
+					</div>
+                	<div class="form" id="f1">
+						<h1>چه کسی؟</h1>
+						<li id="l2">بزرگسال</li>
+						<li id="l3">خردسال</li>
+						<input type="number" id="i3">
+                       <input type="number" id="i4">
+					</div>
+                
+                </ul>
+            </div>
+    </div>
+        <div class="hot" id="hote">
+            <div class="container">
+                 <ul class="u1">
+					<div class="form">
+						 <h1>کجا؟</h1>
+						 <li>مقصد شما</li>
+						 <input id="i5" type="text" placeholder="مقصد خود را وارد کنید">
+					</div>
+         			<div class="form">
+						<h1>چه وقت؟</h1>
+						<li id="l4">تاریخ ورود</li>
+						<li id="l1">تاریخ خروج</li>
+						<input type="date" id="i1">
+						<input type="date" id="i2">
+					</div>
+                	<div class="form" id="f1">
+						<h1>چه کسی؟</h1>
+						<li id="l2">بزرگسال</li>
+						<li id="l3">خردسال</li>
+						<input type="number" id="i3">
+                       <input type="number" id="i4">
+					</div>
+                
+                </ul>
+            </div>
+    </div>
+        <div class="par" id="parv">
+            <div class="container">
+                <ul class="u1">
+					<div class="form">
+						 <h1>کجا؟</h1>
+						 <li>مقصد شما</li>
+						 <input id="i5" type="text" placeholder="مقصد خود را وارد کنید">
+					</div>
+         			<div class="form">
+						<h1>چه وقت؟</h1>
+						<li id="l4">تاریخ ورود</li>
+						<li id="l1">تاریخ خروج</li>
+						<input type="date" id="i1">
+						<input type="date" id="i2">
+					</div>
+                	<div class="form" id="f1">
+						<h1>چه کسی؟</h1>
+						<li id="l2">بزرگسال</li>
+						<li id="l3">خردسال</li>
+						<input type="number" id="i3">
+                       <input type="number" id="i4">
+					</div>
+                
+                </ul>
+            </div>
+    </div>
+    <div class="main-2">
+        <div class="container">
+            <h1 style="color: coral;float: right;margin-top: 30px;">تور های شگفت انگیز</h1>
+			<br><br><br><br>
+			<span class="pic1">
+				<div id="p1" class="pick">
+						<div class="im"></div>
+					<div class="te"><a href="#">پاریس 1/000/000</a></div>
+				</div>
+				<div id="p2" class="pick"><div class="im"></div>
+						<div class="te"><a href="#">پاریس 1/000/000</a></div></div>
+				<div id="p3" class="pick"><div class="im"></div>
+						<div class="te"><a href="#">پاریس 1/000/000</a></div></div>
+				<div id="p4" class="pick"><div class="im"></div>
+						<div class="te"><a href="#">پاریس 1/000/000</a></div></div>
+			</span>
+        </div>
+    </div>
+	<div class="NE">
+		<div class="NEt">
+			<h1>عضویت در خبرنامه</h1>
+				<h2>برای عضویت در خبرنامه فقط کافیست آدرس ایمیل خود را برای ما ارسال نمایید تا ما شما را از جدیدترین پکیج ها مطلع کنیم.</h2>
+			<button class="NEb">آدرس ایمیل</button>
+		</div>
+	
+	</div>
+	<div class="main-3">
+		<div class="container">
+			<h1 style="color: coral;float: right;margin-top: 30px;">تور های محبوب</h1>
+			<br><br><br><br>
+			<div id="o1">
+				<div class="offer">
+					<img src="un2.jpg" alt="none">
+					<h1>&nbsp;&nbsp;تور کشتی کروز</h1>
+					<br><br><br>
+					<p>استفاده مینماید,تا از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و ظاهر متن باشد.معمولا طراحان گرافیک برای صفحه ارایی,نخست از متن های ازمایشی بی معنی استفاده میکنند تا صرفا به مشتری یا صاحب کار خود نشان دهند که صفحه طراحی یا صفحه بندی شده بعد از اینکه متن در آن قرار گیرد چگونه به نطر می رسد و قلم ها و اندازه بندی ها چگونه </p>
+					<hr>
+					<h2>تاریخ حرکت :25 شهریور ماه</h2>
+					</div>
+					<div class="offer">
+					<img src="un2.jpg" alt="none">
+					<h1>&nbsp;&nbsp;تور کشتی کروز</h1>
+					<br><br><br>
+					<p>استفاده مینماید,تا از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و ظاهر متن باشد.معمولا طراحان گرافیک برای صفحه ارایی,نخست از متن های ازمایشی بی معنی استفاده میکنند تا صرفا به مشتری یا صاحب کار خود نشان دهند که صفحه طراحی یا صفحه بندی شده بعد از اینکه متن در آن قرار گیرد چگونه به نطر می رسد و قلم ها و اندازه بندی ها چگونه </p>
+						<hr><h2>تاریخ حرکت :25 شهریور ماه</h2>
+				</div>
+				
+			</div>
+			<div id="o2">
+				<div class="offer">
+					<img src="un2.jpg" alt="none">
+					<h1>&nbsp;&nbsp;تور کشتی کروز</h1>
+					<br><br><br>
+					<p>استفاده مینماید,تا از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و ظاهر متن باشد.معمولا طراحان گرافیک برای صفحه ارایی,نخست از متن های ازمایشی بی معنی استفاده میکنند تا صرفا به مشتری یا صاحب کار خود نشان دهند که صفحه طراحی یا صفحه بندی شده بعد از اینکه متن در آن قرار گیرد چگونه به نطر می رسد و قلم ها و اندازه بندی ها چگونه </p><hr><h2>تاریخ حرکت :25 شهریور ماه</h2>
+				</div>
+				<div class="offer">
+					<img src="un2.jpg" alt="none">
+					<h1>&nbsp;&nbsp;تور کشتی کروز</h1>
+					<br><br><br>
+					<p>استفاده مینماید,تا از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و ظاهر متن باشد.معمولا طراحان گرافیک برای صفحه ارایی,نخست از متن های ازمایشی بی معنی استفاده میکنند تا صرفا به مشتری یا صاحب کار خود نشان دهند که صفحه طراحی یا صفحه بندی شده بعد از اینکه متن در آن قرار گیرد چگونه به نطر می رسد و قلم ها و اندازه بندی ها چگونه </p><hr><h2>تاریخ حرکت :25 شهریور ماه</h2>
+				</div>
+			</div>
+		</div>
+	</div>
+    </body>
+
+</html>
